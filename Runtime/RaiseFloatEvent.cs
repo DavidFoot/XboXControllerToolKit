@@ -28,7 +28,6 @@ public class RaiseFloatEvent : MonoBehaviour
             };
             m_whatToObserve.action.canceled += (e) => {
                 m_value = e.ReadValue<float>();
-
                 m_onChanged.Invoke(m_value);
             };
         }
@@ -39,12 +38,10 @@ public class RaiseFloatEvent : MonoBehaviour
             m_whatToObserve.action.Disable();
             m_whatToObserve.action.performed -= (e) => {
                 m_value = e.ReadValue<float>();
-
                 m_onChanged.Invoke(m_value);
             };
             m_whatToObserve.action.canceled -= (e) => {
                 m_value = e.ReadValue<float>();
-
                 m_onChanged.Invoke(m_value);
             };
         }
