@@ -1,0 +1,94 @@
+{
+    "name": "XboxController",
+    "maps": [
+        {
+            "name": "Player ",
+            "id": "4638c098-0b22-4868-9c00-63ea44e4e5a1",
+            "actions": [
+                {
+                    "name": "XboxLeftXAxis",
+                    "type": "Value",
+                    "id": "dccaaae6-f440-4fda-bc29-3d01fe150083",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "XboxLeftYAxis",
+                    "type": "Value",
+                    "id": "c30bef2e-c27a-4199-894a-abb7ac0290b3",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "XboxRightXAxis",
+                    "type": "Value",
+                    "id": "ff614c23-a4df-4daf-9b0a-cc254f8ffa02",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "XboxRightYAxis",
+                    "type": "Value",
+                    "id": "2fb0af95-ddce-41a6-bb93-6ce1d1904d73",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "61c7c2f9-394b-4eb5-8d6b-e196c2f01053",
+                    "path": "<XInputController>/leftStick/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "XboxLeftXAxis",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "80cf6c9a-02ca-475b-8e8d-d32ba8ed8c7e",
+                    "path": "<XInputController>/leftStick/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "XboxLeftYAxis",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fdc591a5-753b-4455-9b91-2a3161c24f7f",
+                    "path": "<XInputController>/rightStick/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "XboxRightXAxis",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "08019bd8-df77-4e8b-affa-99303ba86e08",
+                    "path": "<XInputController>/rightStick/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "XboxRightYAxis",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
