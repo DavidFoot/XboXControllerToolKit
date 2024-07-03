@@ -1,0 +1,23 @@
+{                                                                                
+  "name": "be.davidfoot.xboxcontrollertoolkit",                              
+  "displayName": "XboxControllerToolkit",                        
+  "version": "0.0.1",                         
+  "unity": "2022.3",                            
+  "unityRelease": "",                             
+  "description": "Package Toolkit to raise float event on XboxInput",                         
+  "keywords": ["Script","Tool"],   
+  "relatedPackages":{},     
+  "samples" : [],
+  "author": {
+    "name": "David Foot",
+    "mail": "",
+    "url": "https://github.com/DavidFoot"
+  },
+  "repository": {
+    "type": "Git",
+    "url": "https://github.com/DavidFoot/XboXControllerToolKit.git",
+    "footprint": "",
+    "revision": ""
+  },     
+  "category": "Script"                   
+} 
